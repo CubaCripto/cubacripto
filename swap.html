@@ -1,0 +1,457 @@
+<html>
+
+<!-- head -->
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3KMMJG3C8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R3KMMJG3C8');
+</script>
+
+<!-- meta -->
+<meta lang="es">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- /meta -->
+
+<!-- title bar -->
+<title>SWAP - CUBACRIPTO</title>
+<link rel="icon" href="rs/cc11.png" type="image/png">
+<!-- /title bar -->
+
+<!-- style -->
+<style>
+html, body {
+  background-color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+</style>
+<!-- /style -->
+
+</head>
+<!-- /head -->
+
+<!-- body -->
+<body>
+
+<!-- navbar -->
+<style>
+html, body {
+  background-color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+
+.navbar {
+  background-color: #0000FF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  height: 30px;
+  padding: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+  transform: scale(1.1);
+}
+
+.menu-container {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.menu-item {
+  display: inline-block;
+  padding: 15px 10px;
+  color: white;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background-color: #2960FF;
+}
+.selected {
+  background-color: #2960FF !important;
+  color: #FFFFFF !important;
+}
+.navbar2 {
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 50;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+</style>
+
+<div class="navbar">
+
+ <div class="logo">
+  <a href="swap.html">
+   <img src="rs/cc12.png">
+  </a>
+ </div>
+
+ <div class="menu-container">
+  <a class="menu-item" href="index.html"><b>Inicio</b></a>
+  <a class="menu-item selected" href="swap.html"><b>Swap</b></a>
+  <a class="menu-item" href="bip39.html" target="_blank"><b>BIP39</b></a>
+ </div>
+</div>
+<!-- /navbar -->
+
+<!-- navbar2 -->
+<div class="navbar2">
+
+<!-- tradingview-widget -->
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "BINANCE:BTCUSD",
+      "title": "BTC"
+    },
+    {
+      "proName": "BINANCE:ETHUSD",
+      "title": "ETH"
+    },
+    {
+      "proName": "BINANCE:BNBUSD",
+      "title": "BNB"
+    },
+    {
+      "proName": "BINANCE:XRPUSD",
+      "title": "XRP"
+    },
+    {
+      "proName": "BINANCE:ADAUSD",
+      "title": "ADA"
+    },
+    {
+      "proName": "BINANCE:DOGEUSD",
+      "title": "DOGE"
+    },
+    {
+      "proName": "BINANCE:SOLUSD",
+      "title": "SOL"
+    },
+    {
+      "proName": "BINANCE:TRXUSD",
+      "title": "TRX"
+    },
+    {
+      "proName": "BINANCE:MATICUSD",
+      "title": "MATIC"
+    },
+    {
+      "proName": "BINANCE:LTCUSD",
+      "title": "LTC"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "light",
+  "isTransparent": true,
+  "displayMode": "center",
+  "locale": "es"
+}
+  </script>
+<!-- /tradingview-widget -->
+
+</div>
+<!-- /navbar2 -->
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- text -->
+<style>
+.text {
+  margin: 20px;
+  text-align: justify;
+}
+.text a {
+  text-decoration: none;
+  color: blue;
+  transition: color 0.3s;
+}
+.text a:hover {
+  color: red;
+}
+.image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 30px;
+}
+.image img {
+  transition: transform 0.3s;
+}
+.image img:hover {
+  transform: scale(1.1);
+}
+.image2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-gap: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0;
+}
+.image2 img {
+  transition: transform 0.3s;
+}
+.image2 img:hover {
+  transform: scale(1.1);
+}
+</style>
+
+<div class="text">
+
+<div class="image">
+ <div>
+  <center>
+  <a href="https://swapzone.io/?refId=IpNkSBY47D" target="_blank">
+  <img src="rs/swapzone.png" width="auto" height="100px"></a>
+  </center>
+ </div>
+</div>
+
+<a href="https://swapzone.io/?refId=IpNkSBY47D" target="_blank"><h2><b>SWAPZONE</b></h2></a>
+<p>
+<h4>Swapzone es una plataforma en línea que facilita el intercambio de criptomonedas entre diferentes exchanges de manera rápida y sencilla. La plataforma actúa como un intermediario y busca las mejores tarifas y liquidez disponibles en diferentes exchanges para garantizar que los usuarios obtengan las mejores condiciones para sus intercambios de criptomonedas.
+</p>
+<p>
+En lugar de tener que registrarse y realizar transacciones en múltiples exchanges, los usuarios pueden usar Swapzone para comparar las tasas de intercambio y los montos disponibles en diferentes plataformas en un solo lugar. Esto ahorra tiempo y esfuerzo al permitir a los usuarios encontrar las mejores opciones de intercambio sin tener que buscar manualmente en cada exchange.
+</p>
+<p>
+Swapzone no almacena ni controla los fondos de los usuarios, sino que facilita el proceso de intercambio conectando a los usuarios con los exchanges adecuados para completar las transacciones. Al seleccionar una oferta de intercambio, los usuarios son redirigidos al exchange correspondiente para completar el intercambio.</h4>
+</p>
+
+<div class="image2">
+ <div>
+  <a href="https://www.trustpilot.com/review/swapzone.io" target="_blank">
+  <img src="rs/swapzone_trust.png" width="auto" height="50px"></a>
+ </div>
+</div>
+
+<br>
+
+<div class="image">
+ <div>
+  <center>
+  <a href="https://swapspace.co?ref=8a21d739b04ba9f443f3aa98" target="_blank">
+  <img src="rs/swapspace.png" width="auto" height="100px"></a>
+  </center>
+ </div>
+</div>
+
+<a href="https://swapspace.co?ref=8a21d739b04ba9f443f3aa98" target="_blank"><h2><b>SWAPSPACE</b></h2></a>
+<p>
+<h4>SwapSpace es una plataforma de intercambio de criptomonedas que permite a los usuarios intercambiar tokens digitales de manera rápida y sencilla. Actúa como un intermediario entre diferentes exchanges de criptomonedas, lo que significa que los usuarios pueden realizar transacciones utilizando los servicios y los precios de múltiples exchanges sin tener que registrarse en cada uno de ellos por separado.
+</p>
+<p>
+La plataforma SwapSpace busca simplificar el proceso de intercambio de criptomonedas al proporcionar una interfaz fácil de usar y una amplia gama de criptomonedas disponibles para el intercambio. Permite a los usuarios comparar los precios y las tarifas de diferentes exchanges y seleccionar la mejor opción para sus necesidades. Además, SwapSpace no requiere registros ni proporciona información personal de los usuarios, lo que agrega una capa adicional de privacidad.
+</p>
+<p>
+Al utilizar SwapSpace, los usuarios pueden intercambiar criptomonedas de forma rápida y segura sin tener que pasar por el proceso de registro y verificación en múltiples exchanges. Esto puede ser especialmente útil para aquellos que desean realizar intercambios ocasionales o que prefieren mantener su información personal privada.</h4>
+</p>
+
+<div class="image2">
+ <div>
+  <a href="https://www.trustpilot.com/review/swapspace.co" target="_blank">
+  <img src="rs/swapspace_trust.png" width="auto" height="50px"></a>
+ </div>
+</div>
+
+<br>
+
+<div class="image">
+ <div>
+  <center>
+  <a href="https://nomiswap.io/?r=368775" target="_blank">
+  <img src="rs/nomiswap.png" width="auto" height="100px"></a>
+  </center>
+ </div>
+</div>
+
+<a href="https://nomiswap.io/?r=368775" target="_blank"><h2><b>NOMISWAP</b></h2></a>
+<p>
+<h4>Nomiswap es un DEX (Decentralized Exchange o intercambio descentralizado) desarrollado por Nominex. Un DEX es una plataforma que permite a los usuarios intercambiar criptomonedas directamente entre sí sin la necesidad de intermediarios centralizados.
+</p>
+<p>
+Nomiswap se basa en la tecnología de contratos inteligentes de la cadena de bloques Ethereum, lo que significa que todas las transacciones se ejecutan de manera automática y transparente a través de contratos inteligentes sin la intervención de terceros. Esto garantiza la seguridad y la integridad de las transacciones, al tiempo que elimina la necesidad de confiar en una entidad centralizada.
+</p>
+<p>
+Una de las características destacadas de Nomiswap es su enfoque en la liquidez y la optimización de precios. Utiliza un algoritmo llamado "NomiX" que busca obtener los mejores precios para los usuarios al realizar intercambios. Este algoritmo busca proveedores de liquidez en diferentes DEX y los combina para ofrecer a los usuarios tasas competitivas y reducir los deslizamientos de precios.
+</p>
+<p>
+Además, Nomiswap permite a los usuarios ganar recompensas por proporcionar liquidez a la plataforma. Los usuarios pueden agregar sus criptomonedas a los pools de liquidez y recibir tokens de recompensa a cambio. Estos tokens pueden ser canjeados posteriormente por otras criptomonedas o utilizados en la plataforma.</h4>
+</p>
+
+<div class="image2">
+ <div>
+  <a href="https://www.trustpilot.com/review/nominex.io" target="_blank">
+  <img src="rs/nominex_trust.png" width="auto" height="50px"></a>
+ </div>
+</div>
+
+</div>
+<!-- /text -->
+
+<br>
+<br>
+<br>
+
+<!-- footer -->
+<style>
+footer {
+  background-color: #0000FF;
+  color: #FFFFFF;
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
+<footer>
+
+<!-- social -->
+<style>
+.social-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-container img {
+  width: auto;
+  height: 25px;
+  transition: transform 0.3s;
+}
+.social-wrapper {
+  margin-right: 15px;
+}
+.social-wrapper:last-child {
+  margin-right: 0;
+}
+.social-image:hover {
+  transform: scale(1.2);
+}
+</style>
+
+<div class="social"></div>
+
+ <div class="social-container">
+
+  <div class="social-wrapper">
+   <a href="https://t.me/cubacripto" target="_blank">
+    <img class="social-image" src="rs/telegram2.png">
+   </a>
+  </div>
+
+  <div class="social-wrapper">
+   <a href="https://twitter.com/cubacripto" target="_blank">
+    <img class="social-image" src="rs/twitter2.png">
+   </a>
+  </div>
+
+  <div class="social-wrapper">
+   <a href="https://facebook.com/cubacripto" target="_blank">
+    <img class="social-image" src="rs/facebook2.png">
+   </a>
+  </div>
+
+  <div class="social-wrapper">
+   <a href="https://instagram.com/cubacripto" target="_blank">
+    <img class="social-image" src="rs/instagram2.png">
+   </a>
+  </div>
+
+  <div class="social-wrapper">
+   <a href="https://www.youtube.com/@cubacripto" target="_blank">
+    <img class="social-image" src="rs/youtube2.png">
+   </a>
+  </div>
+
+  <div class="social-wrapper">
+   <a href="mailto:cubacripto@gmail.com" target="_blank">
+    <img class="social-image" src="rs/email2.png">
+   </a>
+  </div>
+
+ </div>
+<!-- /social -->
+
+<br>
+
+<!-- copyright -->
+<style>
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright img {
+  width: auto;
+  height: 18px;
+  transition: transform 0.3s;
+}
+.copyright img:hover {
+  transform: scale(1.1);
+}
+</style>
+
+<center>
+<div class="copyright">
+ <a href="index.html">
+  <img src="rs/cc22.png">
+ </a>
+</div>
+<font size="1"><b>&copy; 2018-2023<b/></font>
+</center>
+<!-- /copyright -->
+
+</footer>
+<!-- /footer -->
+
+</body>
+<!-- /body -->
+
+</html>
