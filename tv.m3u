@@ -1323,3 +1323,19 @@ https://ss3.domint.net:3108/zol_str/vzol/playlist.m3u8
 https://cdn.oneplaychile.cl:1936/regionales/nublevision.stream/playlist.m3u8
 #EXTINF:-1 group-title="VIAJES Y TURISMO" tvg-id="Teletur.do" tvg-name="esp.do" tvg-logo="https://dominicanchannels.com/wp-content/uploads/2014/09/teletur.png" ,Teletur
 https://cdn4.hostlagarto.com:8081/static/teletur/playlist.m3u8
+#EXTINF:-1 group-title="VARIADA" tvg-id="AguacateTV.ve", tvg-logo="https://intervenhosting.net/imagenes/aguacatetv.jpg", Aguacate TV (1080)
+https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
+#EXTINF:-1 group-title="VARIADA" tvg-id="GuaroTV.ve", tvg-logo="https://intervenhosting.net/imagenes/guarotv.jpg", Guaro TV (1080)
+https://streamtv.intervenhosting.net:3061/hybrid/play.m3u8
+#EXTINF:-1 group-title="VARIADA" tvg-id="interTV.ve", tvg-logo="https://intervenhosting.net/imagenes/intertv.jpg", Inter TV (1080)
+https://streamtv.intervenhosting.net:3175/hybrid/play.m3u8
+#EXTINF:-1 group-title="VARIADA" tvg-id="LatinaTV.ve", tvg-logo="https://intervenhosting.net/imagenes/latinatv.jpg", Latina TV (1080)
+https://streamtv.intervenhosting.net:3639/multi_live/play.m3u8
+#EXTINF:-1 group-title="VARIADA" tvg-id="KandelaTV.ve", tvg-logo="https://intervenhosting.net/imagenes/kandelatv.jpg", Kandela TV (1080)
+https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8
+#EXTINF:-1 group-title="VARIADA" tvg-id="Telecentro.com.ve", tvg-logo="https://intervenhosting.net/roku/telecentro/listposter.jpg", Telecentro (1080)
+https://streamtv.intervenhosting.net:3161/live/telecentrolive.m3u8
+#EXTINF:-1 group-title="VARIADA" tvg-id="Portutv.com", tvg-logo="https://intervenhosting.net/roku/portutv/portutv.jpg", Portuguesa Televisión (1080)
+https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
+#EXTINF:-1 group-title="VARIADA" tvg-id="Iglesialgd.org", tvg-logo="https://intervenhosting.net/roku/iglesialgd/lgdtv.jpg", Portuguesa Televisión (1080)
+https://streamtv.intervenhosting.net:3259/hybrid/play.m3u8
